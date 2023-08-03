@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Around The World</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="bg-primary p-3">
+
+    <h1>Around The World</h1>
+  </header>
+
+  <!--inicio da navbar-->
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="destinos.html">Destinos</a>
+          <a class="nav-link" href="promocoes.html">Promoções</a>
+          <a class="nav-link" href="contato.html">Contato</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+    <!--fim da navbar-->
+
+  <div class="container">
+
+    <h2>Transforme seu sonho em realidade, viaje ao redor do mundo!
+    </h2>
+    <hr>
+
+    <br>
+
+    <section class="background-home p-4">
+      <form>
+        <div class="form-row">
+          <div class="form-group col-md-4">
+            <label for="inputOrigem">Origem</label>
+            <input type="text" class="form-control" id="inputOrigem" placeholder="Origem">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputDestino">Destino</label>
+            <input type="text" class="form-control" id="inputDestino" placeholder="Destino">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputDataIda">Data da ida</label>
+            <input type="date" class="form-control" id="inputDataIda">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputDataVolta">Data da volta</label>
+            <input type="date" class="form-control" id="inputDataVolta">
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary mt-3">Buscar</button>
+      </form>
+    </section>
+    <!--fim da section (FOTO DO SITE)-->
+  </div>
+
+
+  <!-- Footer -->
+  <footer class= "footer bg-light text-dark text-center p-4">
+    <!--<footer class="containerfooter">-->
+    <p><b>Formas de pagamento:</b></p>
+    <img src="./imagens/formas-de-pagamento-ok.png" class="img-fluid" alt="Formas de pagamento">
+    <p>&copy; Recode Pro 2023 - Desenvolvido por Josi Martins</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

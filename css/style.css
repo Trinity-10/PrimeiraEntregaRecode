@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	
+
+}
+
+
+
+.cards{
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;  /*A propriedade CSS flex-wrap define se os itens flexíveis são forçados a ficarem na mesma linha ou se podem ser quebradas em varias linhas.*/
+    justify-content: space-evenly; /*ESPACO ENTRE AS DIVS, OS CARDS!*/
+    
+
+}
+.background-home {
+    background-image: url("../imagens/background-rosaeazul.jpg.jpg");
+    background-size:cover;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    
+}   
+/*
+.containerfooter {   *posso utilizar depois no projeto
+    display: flex;
+    color: blueviolet;
+    align-items: center;
+    flex-direction: row row-reverse;
+    margin: 100px;
+    border-radius: 5px;
+    width: 35%;
+    
+
+}*/
+
+
+
+
+
+
+
+
+
+
+

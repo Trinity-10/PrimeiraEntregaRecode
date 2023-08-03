@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Around The World</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="bg-primary p-3">
+
+    <h1>Around The World</h1>
+  </header>
+
+  <!--inicio da navbar-->
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="destinos.html">Destinos</a>
+          <a class="nav-link" href="promocoes.html">Promoções</a>
+          <a class="nav-link" href="contato.html">Contato</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+    <!--fim da navbar-->
+
+    <!--apagar o q ta escrito e colar as promocoes-->
+
+  <div class="container">
+
+    <h2>Fale conosco!</h2>
+    <hr>
+
+    <!--Ínico do Menu (formulário)-->
+
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Digite seu e-mail:</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Deixe sua mensagem:</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <button type="button" class="btn btn-primary">Enviar</button>
+      </div>
+
+   <!-- contatos-->
+    <hr>
+    <table border="0 width=100%" cellpadding="20">
+        <tr>
+            <td width="50%" align="center">
+                <img src="./imagens/email.png" width="40px">
+                <font face="arial" size="4">contato@aroundtheworldtour.com</font>
+            </td>
+
+            <td width="50%" align="center">
+                <img src="./imagens/whatsapp.png" width="40">
+                <font face="Arial" size="4">(021) 99999-9999</font>
+            </td>
+        </tr>
+    </table>
+  </div>
+    <!-- formulario em html puro:-->
+
+    <!--<form>
+        <h4>Nome: </h4>
+        <input type="text" style="width: 400px;">
+            <h4>Mensagem: </h4>
+            <textarea style="width: 400px;"></textarea>
+            <input type="submit" value="Enviar">         <!--passei meia hr sem entender, tava "imput" em vez de "input"!!!!!!!-->
+    </form> 
+    <br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+      <!--cada brzinho desse vai dando um espacinho xD-->
+
+    <!--formas de pagamento: (que quebrei a cbça pra conseiguir)-->
+    <footer class= "footer bg-light text-dark text-center p-4"> 
+      <p><b>Formas de pagamento:</b></p>
+      <img src="./imagens/formas-de-pagamento-ok.png" class="img-fluid" alt="Formas de pagamento">
+      <p>&copy; Recode Pro 2023 - Desenvolvido por Josi Martins</p>
+    </footer>
+  
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+
+</html>
